@@ -1,0 +1,26 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    color:white;
+}
+.slide-container{
+    background-color: cadetblue;
+    text-align: center;
+    padding:20px;
+    height:100vh;
+}
+.slide-element{
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%) scale(0);
+    font-size: 4rem;
+    transition: .3s;
+}
+.slide-element i, h2{
+    margin:20px auto;
+}
+.current{
+    transform: translate(-50%,-50%) scale(1);
+}
